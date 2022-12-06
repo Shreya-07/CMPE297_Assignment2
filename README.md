@@ -6,11 +6,11 @@
 #### https://colab.research.google.com/drive/1TwLhK565kG9XsSTLOJMCyUd9UcerYjQY
 
 ### Updated colab link
-#### 
-### dataset used : 
+#### https://colab.research.google.com/drive/1lLff5Uu8_5d9EHJRpgcrYZzdYyMY3uQ8?usp=sharing
+### dataset used : CORA
 
 ### Solution 
-####
+#### Here GCN's are used for prediction which rely on message passing methods, which means that vertices exchange information with the neighbors, and send “messages” to each other. Here we have simply divided the summed messages by the number of neighbors afterward. Additionally, we have replaced the weight matrix with a linear layer, which additionally allows us to add a bias.
 
 ## PART B
 ### Node classification using GAT/GCN
